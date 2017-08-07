@@ -1,0 +1,20 @@
+doc-warnings: yes
+strictness: veryhigh
+max-line-length: 400
+autodetect: yes
+requirements:
+    - requirements.txt
+ignore-paths:
+    - .github
+    - setup.py
+pep8:
+    full: true
+pylint:
+  disable:
+        R0914
+        R0913
+        W0622
+        W0603
+python-targets:
+    - 2
+    - 3
